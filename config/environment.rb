@@ -1,10 +1,8 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
-require 'rake'
+#require 'rake'
 
-require './app'
-require 'app/models'
 
 
 Bundler.require
@@ -25,5 +23,5 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
   ActiveRecord::Migration.verbose = false
 end
 
-require_all 'app'
-require_all 'app/models'
+#require_all 'app'
+#require_all 'app/models'
