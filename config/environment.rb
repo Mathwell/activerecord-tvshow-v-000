@@ -2,7 +2,8 @@ require "bundler/setup"
 require 'yaml'
 require 'active_record'
 require 'rake'
-require 'app/'
+
+require '/app'
 require 'app/models'
 
 
